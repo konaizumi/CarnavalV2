@@ -1,0 +1,290 @@
+/** 
+ * Estilos principales
+ */
+
+
+/* Fuentes*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+
+
+/* Estilos generales */
+
+body{
+	margin: 0;
+	background-image: url(../imgs/debut_light.png);	
+}
+
+body:before {
+	content: "";
+	position: fixed;
+	top: -10px;
+	left: 0;
+	width: 100%;
+	height: 10px;
+
+	box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+	
+	z-index: 100;
+}
+ 
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+
+
+/* Cabecera */
+
+header{
+	width: 100%;
+	height: 250px;;	
+}
+
+nav#menu{
+	width: 100%;
+	margin: 4px 0px;
+}
+
+#menu a { 
+
+	display: inline-table;
+	vertical-align: middle;
+
+	height: 62px;
+	width: 135px;
+	min-width: 100px;
+
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	line-height: 56px;
+	text-decoration: none; 
+	text-shadow: 1px 1px 14px rgb(99, 99, 99);
+	text-align: center;
+
+	background-image: url(../imgs/Botones.png);
+	background-size: 1002px 100%;
+	background-repeat: no-repeat;
+
+	border-radius: 4px;
+	box-shadow: 1px 1px 5px 0px rgb(163, 158, 158);
+	margin: 0 0 0 3px;
+}
+
+#menu .one {background-position: 0 0; margin-left: 3px; }
+#menu .two {background-position: -144px 0; }
+#menu .three {background-position: -287px 0; }
+#menu .four {background-position: -429px 0; }
+#menu .five {background-position: -572px 0; }
+#menu .six {background-position: -715px 0; }
+#menu .seven {background-position: -859px 0; }
+
+#menu a:hover {
+	cursor: pointer;
+	/*color: #E0DFDF;*/
+	box-shadow: inset 1px 1px 5px 0px rgb(95, 95, 95);
+}
+
+
+
+
+
+/* Divisor entre nav y el contenido*/
+
+.divisor{
+	height: 12px;
+	width: 100%;
+	border: 1px solid rgb(141, 141, 141);
+	background-image: url(../imgs/Separador.png);
+	background-size: auto 100%;
+}
+
+
+
+
+/* Contenido*/
+
+section{
+	/*border: 1px solid rgb(180, 173, 173);*/
+	min-height: 500px;
+	/*background-color: #F1EDED;*/
+	width: 100%;
+	display: inline-block;
+}
+
+section .contenido {
+	width: 80%;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 100px;
+}
+
+section .contenido h1.title-section{
+	font-family: Open Sans;
+	font-size: 34px;
+	margin-bottom: 60px;
+}
+
+
+
+
+/* Pie de página*/
+
+footer{
+	width: 100%;
+	height: 129px;
+	border: 1px solid black;
+}
+
+footer div{
+	display: inline-table;
+	vertical-align: middle;
+}
+
+footer .fo-logo{
+	width: 11%;
+	height: 100%;
+	float: left;
+}
+
+footer .fo-logo img{
+	margin: 10px 0 0 10px;
+	width: 100%;
+}
+
+footer .fo-container{
+	width: 73%;
+}
+
+footer .fo-container > * {
+	text-align: center;
+}
+
+footer .fo-container .fo-links{
+	padding-left: 0;
+}
+
+footer .fo-container .fo-links li{
+	list-style: none;
+	display: inline-table;
+}
+
+footer .fo-container .fo-links li a{
+	text-decoration: none; 
+}
+
+footer .fo-social{
+	width: 15%;
+	/*float: right;*/
+	height: 100%;
+}
+
+
+
+
+/* Estilos de las recetas */
+
+.receta-container article{
+	border-bottom: 1px solid rgb(179, 179, 179);
+	margin-bottom: 15px;
+	padding-bottom: 16px;
+}
+
+.receta-container article:last-child{
+	border:none;
+}
+
+.receta-container article div{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.receta-container article .rec-logo{
+	width:17%;
+}
+
+.receta-container article .rec-logo img {
+	width: 100%;
+}
+
+.receta-container article .rec-history{
+	width: 63%;
+	margin-left: 36px;
+	margin-right: 30px;
+}
+
+.receta-container article .rec-history h2{
+	font-family: Open Sans;
+	margin-bottom: -6px;
+}
+
+.receta-container article .rec-history p{
+	text-align: justify;
+	font-style: italic;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+}
+
+
+
+/* Estilos Receta individual */
+
+.contenido img.article-img-center {
+	margin: 52px auto;
+	display: block;
+}
+
+.contenido img.article-img-marked {
+	border: 1px solid rgb(206, 206, 206);
+	box-shadow: 0px 0px 0px 2px rgb(5, 5, 5);
+}
+
+.contenido p.rec-text {
+	text-align: justify;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contenido .rec-title-div{
+	font-family: 'Open Sans', sans-serif;
+	margin: 52px 0 25px 0;
+	font-size: 27px;
+	margin-left: 26px;
+}
+
+.contenido .rec-ingredients{
+	width: 80%;
+	display: block;
+	margin: auto;
+}
+
+.contenido .rec-ingredients ul{
+	display: inline-block;
+	width: 50%;
+	margin-left: -38px;
+	vertical-align: top;
+	list-style-type: circle;
+}
+
+.contenido .rec-ingredients ul li{
+	margin: 6px 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.contenido .rec-ingredients .rec-img-aux{
+	display: inline-block;
+	width: 46%;
+	margin-left: 13px;
+}
+
+.contenido .rec-ingredients .rec-img-aux img{
+	width:100%;
+}
+
+
+
+
+
+
