@@ -33,6 +33,15 @@ body:before {
 	margin: 0 auto;
 }
 
+.message{
+	text-align: right;
+	font-family: Open Sans;
+	font-style: italic;
+	font-size: 12px;
+	margin: 41px 0;
+	color: #7C7C7C;
+}
+
 
 
 
@@ -54,7 +63,7 @@ nav#menu{
 	vertical-align: middle;
 
 	height: 62px;
-	width: 135px;
+	width: 136px;
 	min-width: 100px;
 
 	font-family: 'Open Sans', sans-serif;
@@ -135,7 +144,9 @@ section .contenido h1.title-section{
 footer{
 	width: 100%;
 	height: 129px;
-	border: 1px solid black;
+	border-right: 1px solid rgb(219, 219, 219);
+	border-left: 1px solid rgb(219, 219, 219);
+	background-color: rgba(226, 226, 226, 0.33);
 }
 
 footer div{
@@ -155,11 +166,21 @@ footer .fo-logo img{
 }
 
 footer .fo-container{
-	width: 73%;
+	width: 77%;
 }
 
 footer .fo-container > * {
 	text-align: center;
+}
+
+footer .fo-container p{
+	font-family: Open Sans;
+	font-size: 16px;
+}
+
+footer .fo-container a{
+	font-family: Open Sans;
+	font-size:15px;
 }
 
 footer .fo-container .fo-links{
@@ -176,7 +197,7 @@ footer .fo-container .fo-links li a{
 }
 
 footer .fo-social{
-	width: 15%;
+	width: 11%;
 	/*float: right;*/
 	height: 100%;
 }
@@ -202,16 +223,20 @@ footer .fo-social{
 }
 
 .receta-container article .rec-logo{
-	width:17%;
+	width: 19%;
+	height: 110px;
 }
 
 .receta-container article .rec-logo img {
 	width: 100%;
+	height: 100%;
+	border-radius: 23px;
+	box-shadow: 1px 1px 7px 0px rgb(204, 204, 204);
 }
 
 .receta-container article .rec-history{
-	width: 63%;
-	margin-left: 36px;
+	width: 62%;
+	margin-left: 23px;
 	margin-right: 30px;
 }
 
@@ -283,7 +308,46 @@ footer .fo-social{
 	width:100%;
 }
 
+.contenido .rec-info{
+	margin-left: -42px;
+}
 
+.contenido .rec-info li{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 11px;
+}
+
+.contenido .rec-info li:hover{
+	cursor: default;
+}
+
+.contenido .rec-info li span{
+	opacity: .8;
+	display: inline-block;
+	vertical-align: text-bottom;
+}
+
+.contenido .rec-info .user-cant{
+	width: 22px;
+	height: 20px;
+	background-image: url(../imgs/users2.png);
+	background-size: 100% 100%;
+}
+
+.contenido .rec-info .user-time{
+	width: 22px;
+	height: 20px;
+	background-image: url(../imgs/time.png);
+	background-size: 100% 100%;
+}
+
+.contenido .rec-info .user-dif{
+	width: 22px;
+	height: 20px;
+	background-image: url(../imgs/dif.png);
+	background-size: 100% 100%;
+}
 
 
 
