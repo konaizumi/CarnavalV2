@@ -26,6 +26,10 @@ body:before {
 	
 	z-index: 100;
 }
+
+h3{
+	font-family: Open Sans;
+}
  
 .container{
 	width: 1000px;
