@@ -159,14 +159,18 @@ section .contenido h3.subtittle{
 
 
 
+.formulario-contacto{
+	width: 52%;
+}
+
 .formulario-contacto label {
 	width: 100px;
 	display: inline-block;
 	vertical-align: top;
 }
 
-.formulario-contacto input ,textarea {
-	width: 207px;
+.formulario-contacto input, .formulario-contacto textarea {
+	width: 63%;
 	height: 21px;
 	padding: 6px 12px;
 	font-size: 14px;
@@ -178,8 +182,21 @@ section .contenido h3.subtittle{
 	border-radius: 4px;
 }
 
+.formulario-contacto textarea {
+	height: 200px;
+}
+
+.formulario-contacto .form-group {
+	margin-top: 16px;
+}
+
+.formulario-contacto .btn-group {
+	text-align: center;
+	margin-top: 16px;
+}
+
 .formulario-contacto button {
-width: 75px;
+	width: 75px;
 }
 
 /* Pie de página*/
