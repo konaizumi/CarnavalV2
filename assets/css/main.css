@@ -152,6 +152,8 @@ section .contenido h1.title-section{
 
 section .contenido h3.subtittle{
 	font-family: Open Sans;
+	font-size: 24px;
+	margin-top: 40px;
 }
 
 
