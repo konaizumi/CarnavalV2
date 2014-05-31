@@ -44,10 +44,26 @@
 	"buffers":
 	[
 		{
-			"file": "assets/css/main.css",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 5646,
+				"buffer_size": 2621,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "historia.html",
+			"settings":
+			{
+				"buffer_size": 6237,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "eventos.html",
+			"settings":
+			{
+				"buffer_size": 4374,
 				"line_ending": "Windows"
 			}
 		}
@@ -89,6 +105,8 @@
 	},
 	"file_history":
 	[
+		"/D/Desarrollo/CarnavalV2/Carnaval/.gitignore",
+		"/D/Desarrollo/CarnavalV2/assets/css/main.css",
 		"/D/Desarrollo/CarnavalV2/index.html",
 		"/D/Desarrollo/Carnaval V 2.01/assets/css/main.css",
 		"/D/Desarrollo/Carnaval V 2.01/index.html",
@@ -102,7 +120,7 @@
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -116,6 +134,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"></",
+			"todos"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -133,36 +153,96 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "assets/css/main.css",
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5646,
+						"buffer_size": 2621,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2046,
-								2046
+								2617,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "historia.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6237,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3844,
+								3844
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1289.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "eventos.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4374,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1119,
+								1119
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 466.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
