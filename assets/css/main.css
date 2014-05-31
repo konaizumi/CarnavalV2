@@ -95,10 +95,12 @@ nav#menu{
 
 #menu a:hover {
 	cursor: pointer;
-	/*color: #E0DFDF;*/
-	box-shadow: inset 1px 1px 5px 0px rgb(95, 95, 95);
+	box-shadow: none;
 }
 
+#menu a:active {
+	box-shadow: inset 1px 1px 5px 0px rgb(95, 95, 95);
+}
 
 
 
