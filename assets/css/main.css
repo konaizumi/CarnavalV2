@@ -114,6 +114,13 @@ nav#menu{
 
 /* Contenido*/
 
+
+p {
+	font-family: Open Sans;
+	text-align: justify;
+
+}
+
 section{
 	/*border: 1px solid rgb(180, 173, 173);*/
 	min-height: 500px;
@@ -131,12 +138,21 @@ section .contenido {
 	margin-bottom: 100px;
 }
 
+section .contenido h1.tittle{
+	font-family: Open Sans;
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+
 section .contenido h1.title-section{
 	font-family: Open Sans;
 	font-size: 34px;
 	margin-bottom: 60px;
 }
 
+section .contenido h3.subtittle{
+	font-family: Open Sans;
+}
 
 
 
@@ -207,6 +223,7 @@ footer .fo-social{
 
 
 /* Estilos de las recetas */
+
 
 .receta-container article{
 	border-bottom: 1px solid rgb(179, 179, 179);
