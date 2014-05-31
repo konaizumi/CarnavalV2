@@ -45,6 +45,7 @@
 	[
 		{
 			"file": "index.html",
+<<<<<<< HEAD
 			"settings":
 			{
 				"buffer_size": 2621,
@@ -65,6 +66,21 @@
 			{
 				"buffer_size": 4374,
 				"line_ending": "Windows"
+=======
+			"settings":
+			{
+				"buffer_size": 2000,
+				"line_ending": "Windows",
+				"name": "index.html"
+			}
+		},
+		{
+			"file": "assets/css/main.css",
+			"settings":
+			{
+				"buffer_size": 5646,
+				"line_ending": "Unix"
+>>>>>>> 7b4fdbb428625e1373c20b2b9612683c11efd7a0
 			}
 		}
 	],
@@ -105,11 +121,15 @@
 	},
 	"file_history":
 	[
+<<<<<<< HEAD
 		"/D/Desarrollo/CarnavalV2/Carnaval/.gitignore",
 		"/D/Desarrollo/CarnavalV2/assets/css/main.css",
 		"/D/Desarrollo/CarnavalV2/index.html",
 		"/D/Desarrollo/Carnaval V 2.01/assets/css/main.css",
 		"/D/Desarrollo/Carnaval V 2.01/index.html",
+=======
+		"/home/cristian/Desarrollo/CarnavalV2/assets/css/main.css",
+>>>>>>> 7b4fdbb428625e1373c20b2b9612683c11efd7a0
 		"/D/Desarrollo/carnaval/carnaval.sublime-workspace",
 		"/D/Desarrollo/carnaval/carnaval.sublime-project",
 		"/D/Desarrollo/Carnaval V 2.01/assets/css/main",
@@ -162,15 +182,54 @@
 					"semi_transient": false,
 					"settings":
 					{
+<<<<<<< HEAD
 						"buffer_size": 2621,
+=======
+						"buffer_size": 2000,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
+								485,
+								485
+							]
+						],
+						"settings":
+						{
+							"auto_name": "index.html",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assets/css/main.css",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 5646,
+>>>>>>> 7b4fdbb428625e1373c20b2b9612683c11efd7a0
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+<<<<<<< HEAD
 								2617,
 								0
+=======
+								47,
+								109
+>>>>>>> 7b4fdbb428625e1373c20b2b9612683c11efd7a0
 							]
 						],
 						"settings":
@@ -178,7 +237,7 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
+						"translation.x": 80.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
