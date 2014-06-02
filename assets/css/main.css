@@ -172,7 +172,7 @@ footer{
 }
 
 footer div{
-	display: inline-table;
+	display: inline-block;
 	vertical-align: middle;
 }
 
@@ -189,6 +189,7 @@ footer .fo-logo img{
 
 footer .fo-container{
 	width: 77%;
+	/*padding-top: 13px;*/
 }
 
 footer .fo-container > * {
