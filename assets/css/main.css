@@ -120,7 +120,6 @@ nav#menu{
 
 /* Contenido*/
 
-
 p {
 	text-align: justify;
 
@@ -131,6 +130,7 @@ section{
 	min-height: 500px;
 	/*background-color: #F1EDED;*/
 	width: 100%;
+	margin-bottom: 100px;
 	display: inline-block;
 	border-right: 1px solid rgb(219, 219, 219);
 	border-left: 1px solid rgb(219, 219, 219);
@@ -140,7 +140,6 @@ section .contenido {
 	width: 80%;
 	margin: auto;
 	margin-top: 40px;
-	margin-bottom: 100px;
 	font-family: Open Sans;
 }
 
@@ -161,45 +160,6 @@ section .contenido h3.subtittle{
 
 
 
-.formulario-contacto{
-	width: 52%;
-}
-
-.formulario-contacto label {
-	width: 100px;
-	display: inline-block;
-	vertical-align: top;
-}
-
-.formulario-contacto input, .formulario-contacto textarea {
-	width: 63%;
-	height: 21px;
-	padding: 6px 12px;
-	font-size: 14px;
-	line-height: 1.42857143;
-	color: #555;
-	background-color: #fff;
-	background-image: none;
-	border: 1px solid #ccc;
-	border-radius: 4px;
-}
-
-.formulario-contacto textarea {
-	height: 200px;
-}
-
-.formulario-contacto .form-group {
-	margin-top: 16px;
-}
-
-.formulario-contacto .btn-group {
-	text-align: center;
-	margin-top: 16px;
-}
-
-.formulario-contacto button {
-	width: 75px;
-}
 
 /* Pie de página*/
 
@@ -315,39 +275,82 @@ footer .fo-social{
 	font-size: 15px;
 }
 
+.receta-container .rec-info{
+	margin-left: -42px;
+}
+
+.receta-container .rec-info li{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 11px;
+}
+
+.receta-container .rec-info li:hover{
+	cursor: default;
+}
+
+.receta-container .rec-info li span{
+	opacity: .8;
+	display: inline-block;
+	vertical-align: text-bottom;
+}
+
+.receta-container .rec-info .user-cant{
+	width: 22px;
+	height: 20px;
+	background-image: url(../imgs/users2.png);
+	background-size: 100% 100%;
+}
+
+.receta-container .rec-info .user-time{
+	width: 22px;
+	height: 20px;
+	background-image: url(../imgs/time.png);
+	background-size: 100% 100%;
+}
+
+.receta-container .rec-info .user-dif{
+	width: 22px;
+	height: 20px;
+	background-image: url(../imgs/dif.png);
+	background-size: 100% 100%;
+}
+
+
 
 
 /* Estilos Receta individual */
 
-.contenido img.article-img-center {
+.receta-single img.article-img-center {
 	margin: 52px auto;
 	display: block;
+	width: 500px;
 }
 
-.contenido img.article-img-marked {
+.receta-single img.article-img-marked {
 	border: 1px solid rgb(206, 206, 206);
 	box-shadow: 0px 0px 0px 2px rgb(5, 5, 5);
 }
 
-.contenido p.rec-text {
+.receta-single p {
 	text-align: justify;
 	font-family: 'Open Sans', sans-serif;
 }
 
-.contenido .rec-title-div{
+.receta-single .rec-title-div{
 	font-family: 'Open Sans', sans-serif;
 	margin: 52px 0 25px 0;
 	font-size: 27px;
 	margin-left: 26px;
 }
 
-.contenido .rec-ingredients{
+.receta-single .rec-ingredients{
 	width: 80%;
 	display: block;
 	margin: auto;
 }
 
-.contenido .rec-ingredients ul{
+.receta-single .rec-ingredients ul{
 	display: inline-block;
 	width: 50%;
 	margin-left: -38px;
@@ -355,63 +358,66 @@ footer .fo-social{
 	list-style-type: circle;
 }
 
-.contenido .rec-ingredients ul li{
+.receta-single .rec-ingredients ul li{
 	margin: 6px 0;
 	font-family: 'Open Sans', sans-serif;
 }
 
 
-.contenido .rec-ingredients .rec-img-aux{
+.receta-single .rec-ingredients .rec-img-aux{
 	display: inline-block;
 	width: 46%;
 	margin-left: 13px;
 }
 
-.contenido .rec-ingredients .rec-img-aux img{
+.receta-single .rec-ingredients .rec-img-aux img{
 	width:100%;
 }
 
-.contenido .rec-info{
-	margin-left: -42px;
+
+
+
+/* Estilos Contactenos */
+
+.formulario-contacto{
+	width: 52%;
 }
 
-.contenido .rec-info li{
+.formulario-contacto label {
+	width: 100px;
 	display: inline-block;
-	vertical-align: middle;
-	margin: 0 11px;
+	vertical-align: top;
 }
 
-.contenido .rec-info li:hover{
-	cursor: default;
+.formulario-contacto input, .formulario-contacto textarea {
+	width: 63%;
+	height: 21px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
 }
 
-.contenido .rec-info li span{
-	opacity: .8;
-	display: inline-block;
-	vertical-align: text-bottom;
+.formulario-contacto textarea {
+	height: 200px;
 }
 
-.contenido .rec-info .user-cant{
-	width: 22px;
-	height: 20px;
-	background-image: url(../imgs/users2.png);
-	background-size: 100% 100%;
+.formulario-contacto .form-group {
+	margin-top: 16px;
 }
 
-.contenido .rec-info .user-time{
-	width: 22px;
-	height: 20px;
-	background-image: url(../imgs/time.png);
-	background-size: 100% 100%;
+.formulario-contacto .btn-group {
+	text-align: center;
+	margin-top: 16px;
 }
 
-.contenido .rec-info .user-dif{
-	width: 22px;
-	height: 20px;
-	background-image: url(../imgs/dif.png);
-	background-size: 100% 100%;
+.formulario-contacto button {
+	width: 75px;
 }
-
 
 
 
