@@ -221,3 +221,10 @@ pip-log.txt
 *.sublime-project
 *.sublime-workspace
 
+
+################################
+## Audio y Video
+################################
+*.ogg
+*.mp4
+*.mp3

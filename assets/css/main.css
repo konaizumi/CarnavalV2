@@ -130,7 +130,8 @@ section{
 	min-height: 500px;
 	/*background-color: #F1EDED;*/
 	width: 100%;
-	margin-bottom: 100px;
+	/*margin-bottom: 100px;*/
+	padding-bottom: 100px;
 	display: inline-block;
 	border-right: 1px solid rgb(219, 219, 219);
 	border-left: 1px solid rgb(219, 219, 219);
@@ -438,3 +439,8 @@ footer .fo-social{
 
 
 
+/* Estilod Multimedia */
+
+.contentAudiovisual{
+	text-align:center
+}

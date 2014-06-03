@@ -1,0 +1,91 @@
+<!DOCTYPE html> 
+<html> 
+<body> 
+
+<div style="text-align:center"> 
+
+  <div id="videoContainer" style="display:none;">
+    <button onclick="playPause()">Play/Pause</button> 
+    <button onclick="makeBig()">Big</button>
+    <button onclick="makeSmall()">Small</button>
+    <button onclick="makeNormal()">Normal</button>
+    <br> 
+    <video id="video1" width="420" styles="display:none;">
+      <source src="mov_bbb.mp4" type="video/mp4">
+      <source src="mov_bbb.ogg" type="video/ogg">
+      Your browser does not support HTML5 video.
+    </video>
+  </div>
+  <div id="audioContainer" style="display:none;">
+    <audio id="audio1" controls >
+      <source src="horse.ogg" type="audio/ogg">
+      <source src="horse.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+    </audio>
+  </div>
+
+</div> 
+
+<ul class="list-video">
+  <li data-src="mov_bbb.mp4">Conejo</li>
+  <li data-src="oceans.mp4">Ave</li>
+</ul>
+
+<ul class="list-audio">
+  <li data-src="horse.ogg">Sonido Caballo</li>
+</ul>
+
+<script> 
+  var myVideo=document.getElementById("video1"); 
+  var myAudio=document.getElementById("audio1"); 
+  var videoContainer=document.getElementById("videoContainer"); 
+  var audioContainer=document.getElementById("audioContainer"); 
+  var listV = document.getElementsByClassName('list-video')[0].getElementsByTagName('li');
+  var listA = document.getElementsByClassName('list-audio')[0].getElementsByTagName('li');
+
+  videoContainer.style.display= 'block';
+
+  for(var li in listV){
+      
+    listV[li].onclick = function (e){
+      if(!isVideo()){
+        videoContainer.style.display= 'block';
+        audioContainer.style.display= 'none';
+      }
+      console.log(e.target.getAttribute('data-src'));
+      myVideo.src = e.target.getAttribute('data-src');
+    };
+  }
+
+  for(var li in listA){
+      
+    listA[li].onclick = function (e){
+      if(!isAudio()){
+        videoContainer.style.display= 'none';
+        audioContainer.style.display= 'block';
+      }
+      console.log(e.target.getAttribute('data-src'));
+      myAudio.src = e.target.getAttribute('data-src');
+    };
+  }
+
+  function isVideo(){
+    return videoContainer.style.display != 'none';
+  }
+
+  function isAudio(){
+    return audioContainer.style.display != 'none';
+  }
+
+  function playPause()
+  { 
+    if (myVideo.paused) 
+      myVideo.play(); 
+    else 
+      myVideo.pause(); 
+  } 
+
+</script> 
+
+</body> 
+</html>
