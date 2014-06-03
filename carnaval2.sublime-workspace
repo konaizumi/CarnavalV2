@@ -47,15 +47,15 @@
 			"file": "galeria.html",
 			"settings":
 			{
-				"buffer_size": 3868,
+				"buffer_size": 4096,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "assets/css/main.css",
+			"file": "contactenos.html",
 			"settings":
 			{
-				"buffer_size": 6912,
+				"buffer_size": 2563,
 				"line_ending": "Windows"
 			}
 		}
@@ -163,15 +163,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3868,
+						"buffer_size": 4096,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3243,
-								3243
+								0,
+								0
 							]
 						],
 						"settings":
@@ -188,28 +188,28 @@
 				},
 				{
 					"buffer": 1,
-					"file": "assets/css/main.css",
+					"file": "contactenos.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6912,
+						"buffer_size": 2563,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2784,
-								2784
+								927,
+								927
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2357.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
