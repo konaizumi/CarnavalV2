@@ -520,6 +520,50 @@ footer .fo-social .tw_btn:hover{
 }
 
 
+.info-integrantes{
+	margin-top: 90px;
+}
+
+.info-integrantes h3.subtittle{
+	font-size: 28px !important;
+}
+
+.info-integrantes .img{
+	display: inline-block;
+	width: 84px;
+	min-height: 84px;
+	vertical-align: top;
+	border: 1px solid black;
+}
+
+.info-integrantes .img img{
+	width: 100%;
+}
+
+.info-integrantes .info{
+	display: inline-block;
+	margin-left: 11px;
+}
+
+.info-integrantes .info p.name{
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 19px;
+}
+
+.info-integrantes ul.extra-info{
+	padding-left: 0;
+	font-size: 14px;
+	color: #4B4B4B;
+	margin-top: 1px;
+}
+
+.info-integrantes ul.extra-info li{
+	list-style: none;
+}
+
+
+
 
 /* Estilod Multimedia */
 
