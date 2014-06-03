@@ -182,6 +182,30 @@ div .galeria img:hover {
 	box-shadow: none;
 }
 
+#showImg{
+	width: 865px;
+	background-color: white;
+	border: 1px solid rgb(182, 182, 182);
+	min-height: 300px;
+	position: absolute;
+	margin-left: -36px;
+	margin-top: 49px;
+	box-shadow: 3px 5px 8px -2px black;
+}
+
+#showImg a {
+	text-decoration: none;
+	float: right;
+	margin-right: 10px;
+}
+
+#showImg img {
+	width: 100%;
+	margin-bottom: -5px;
+}
+
+
+
 /* Pie de página*/
 
 footer{
