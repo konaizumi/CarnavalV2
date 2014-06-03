@@ -27,6 +27,7 @@ for(var e in elements){
 
 function showPop () {
 	container.style.display = 'block';
+	window.scrollTo(0,500);
 }
 
 function hidePop () {
