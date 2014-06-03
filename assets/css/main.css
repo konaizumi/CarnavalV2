@@ -125,6 +125,20 @@ p {
 
 }
 
+div .img-index{
+	width: 400px;
+	height: 400px;
+	margin-top: -100px;
+	margin-bottom: -150px;
+	float: right;
+}
+
+div .img-index img {
+	width: 100%;
+	box-shadow: 2px 2px 5px 0px rgb(163, 158, 158);
+	border-radius: 7px;
+}
+
 section{
 	/*border: 1px solid rgb(180, 173, 173);*/
 	min-height: 500px;
@@ -180,7 +194,6 @@ div .galeria img{
 div .galeria img:hover {
 	cursor: pointer;
 	box-shadow: none;
-	opacity: .8;
 
 }
 
