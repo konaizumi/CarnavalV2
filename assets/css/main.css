@@ -143,6 +143,8 @@ section .contenido {
 	font-family: Open Sans;
 }
 
+/* Historia - Eventos */
+
 section .contenido h1.tittle{
 	font-size: 50px;
 	margin-bottom: 30px;
@@ -158,6 +160,8 @@ section .contenido h3.subtittle{
 	margin-top: 20px;
 }
 
+/* Galeria */
+
 div .galeria {
 	width: 195px;
 	height: 195px;
@@ -167,6 +171,8 @@ div .galeria {
 
 div .galeria img{ 
 	width:100%;
+	border-radius: 4px;
+	box-shadow: 1px 1px 5px 0px rgb(163, 158, 158);
 }
 
 
