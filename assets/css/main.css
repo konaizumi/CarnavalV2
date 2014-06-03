@@ -197,6 +197,15 @@ div .galeria img:hover {
 	text-decoration: none;
 	float: right;
 	margin-right: 10px;
+	position: relative;
+	width: 30px;
+	z-index: 99;
+	margin-top: 6px;
+	margin-bottom: -36px;
+}
+
+#showImg a:hover img {
+	opacity: .8;
 }
 
 #showImg img {

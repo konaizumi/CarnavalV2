@@ -18,7 +18,6 @@ for(var li in listV){
       videoContainer.style.display= 'block';
       audioContainer.style.display= 'none';
     }
-    console.log(e.target.getAttribute('data-src'));
     myVideo.src = pathV + e.target.getAttribute('data-src');
   };
 }
@@ -30,7 +29,6 @@ for(var lia in listA){
       videoContainer.style.display= 'none';
       audioContainer.style.display= 'block';
     }
-    console.log(e.target.getAttribute('data-src'));
     myAudio.src = pathA + e.target.getAttribute('data-src');
   };
 }

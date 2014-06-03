@@ -6,20 +6,15 @@ var elements = document.getElementsByClassName('galeria');
 var _close = document.getElementById('close');
 
 _close.onclick = function (e){
-	console.log(e, e.preventDefault);
 	e.preventDefault();
 	hidePop();
 }
-
-console.log(elements, _close, container);
 
 for(var e in elements){
 
 	elements[e].onclick = function(e){
 		el = e.target;
-		console.log(el);
-
-		container.getElementsByTagName('img')[0].src = el.src;
+		container.getElementsByTagName('img')[1].src = el.src;
 		showPop();
 	}
 
