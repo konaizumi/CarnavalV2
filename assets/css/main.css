@@ -180,6 +180,8 @@ div .galeria img{
 div .galeria img:hover {
 	cursor: pointer;
 	box-shadow: none;
+	opacity: .8;
+
 }
 
 #showImg{
