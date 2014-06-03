@@ -44,10 +44,18 @@
 	"buffers":
 	[
 		{
+			"file": "galeria.html",
+			"settings":
+			{
+				"buffer_size": 3868,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "assets/css/main.css",
 			"settings":
 			{
-				"buffer_size": 6440,
+				"buffer_size": 6912,
 				"line_ending": "Windows"
 			}
 		}
@@ -89,15 +97,15 @@
 	},
 	"file_history":
 	[
+		"/D/Desarrollo/CarnavalV2/assets/css/main.css",
+		"/D/Desarrollo/CarnavalV2/gastronomia.html",
 		"/D/Desarrollo/CarnavalV2/eventos.html",
 		"/D/Desarrollo/CarnavalV2/index.html",
 		"/D/Desarrollo/CarnavalV2/contactenos.html",
 		"/D/Desarrollo/CarnavalV2/historia.html",
 		"/D/Desarrollo/CarnavalV2/recetas/sopa_guandu.html",
-		"/D/Desarrollo/CarnavalV2/gastronomia.html",
 		"/D/Desarrollo/CarnavalV2/carnaval2.sublime-project",
 		"/D/Desarrollo/CarnavalV2/Carnaval/.gitignore",
-		"/D/Desarrollo/CarnavalV2/assets/css/main.css",
 		"/D/Desarrollo/Carnaval V 2.01/assets/css/main.css",
 		"/D/Desarrollo/Carnaval V 2.01/index.html",
 		"/D/Desarrollo/carnaval/carnaval.sublime-workspace",
@@ -146,24 +154,53 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "assets/css/main.css",
+					"file": "galeria.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6440,
+						"buffer_size": 3868,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3019,
-								3019
+								3243,
+								3243
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assets/css/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6912,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2784,
+								2784
 							]
 						],
 						"settings":
@@ -172,7 +209,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 5886.0,
+						"translation.y": 2357.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
