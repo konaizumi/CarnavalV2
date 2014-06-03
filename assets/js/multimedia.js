@@ -9,7 +9,7 @@ var listA = document.getElementsByClassName('list-audio')[0].getElementsByTagNam
 var pathV = 'assets/videos/';
 var pathA = 'assets/audios/';
 
-videoContainer.style.display= 'block';
+//videoContainer.style.display= 'block';
 
 for(var li in listV){
     

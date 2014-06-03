@@ -35,11 +35,11 @@
 					<div class="contentAudiovisual"> 
 
 						<div id="videoContainer" style="display:none;">
-						    <button onclick="playPause()">Play/Pause</button>
-						    <br> 
 						    <video id="video1" width="420">
 						    	Your browser does not support HTML5 video.
 						    </video>
+						    <br> 
+						    <button onclick="playPause()">Play/Pause</button>
 					  	</div>
 					    <div id="audioContainer" style="display:none;">
 						    <audio id="audio1" controls >
@@ -49,14 +49,20 @@
 
 					</div>
 
-					<ul class="list-video">
-						<li data-src="2013.mp4">Carnaval de Barranquilla 2013</li>
-						<li data-src="2014.mp4">Carnaval de Barranquilla 2014</li>
-					</ul>
+					<div class="container-list-video">
+						<h2>Videos</h2>
+						<ul class="list-video">
+							<li data-src="2013.mp4">Carnaval de Barranquilla 2013</li>
+							<li data-src="2014.mp4">Carnaval de Barranquilla 2014</li>
+						</ul>
+					</div>
 
-					<ul class="list-audio">
-						<li data-src="cancionCarnaval.mp3">Cancion Carnaval de Barranquilla</li>
-					</ul>
+					<div class="container-list-audio">
+						<h2>Audio</h2>
+						<ul class="list-audio">
+							<li data-src="cancionCarnaval.mp3">Cancion Carnaval de Barranquilla</li>
+						</ul>
+					</div>
 
 				</div>
 			</section>
