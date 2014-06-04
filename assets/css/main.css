@@ -531,7 +531,7 @@ footer .fo-social .tw_btn:hover{
 .info-integrantes .img{
 	display: inline-block;
 	width: 84px;
-	min-height: 84px;
+	height: 84px;
 	vertical-align: top;
 	border: 1px solid black;
 }
@@ -565,7 +565,7 @@ footer .fo-social .tw_btn:hover{
 
 
 
-/* Estilod Multimedia */
+/* Estilos Multimedia */
 
 .contentAudiovisual{
 	text-align:center;

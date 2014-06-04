@@ -47,7 +47,15 @@
 			"file": "assets/css/main.css",
 			"settings":
 			{
-				"buffer_size": 7366,
+				"buffer_size": 7700,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2910,
 				"line_ending": "Windows"
 			}
 		}
@@ -89,9 +97,9 @@
 	},
 	"file_history":
 	[
+		"/D/Desarrollo/CarnavalV2/multimedia.html",
 		"/D/Desarrollo/CarnavalV2/assets/css/main.css",
 		"/D/Desarrollo/CarnavalV2/assets/js/multimedia.js",
-		"/D/Desarrollo/CarnavalV2/multimedia.html",
 		"/D/Desarrollo/CarnavalV2/galeria.html",
 		"/D/Desarrollo/CarnavalV2/contactenos.html",
 		"/D/Desarrollo/CarnavalV2/gastronomia.html",
@@ -149,7 +157,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -158,15 +166,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7366,
+						"buffer_size": 7700,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2824,
-								2824
+								1982,
+								1982
 							]
 						],
 						"settings":
@@ -174,8 +182,37 @@
 							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": -0.0,
-						"translation.y": 2277.0,
+						"translation.x": 0.0,
+						"translation.y": 1722.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2910,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2301,
+								2301
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 413.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
