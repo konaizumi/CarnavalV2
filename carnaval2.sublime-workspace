@@ -43,14 +43,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "recetas/sopa_mondongo.html",
-			"settings":
-			{
-				"buffer_size": 5139,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -89,19 +81,19 @@
 	},
 	"file_history":
 	[
+		"/D/Desarrollo/CarnavalV2/contactenos.html",
+		"/D/Desarrollo/CarnavalV2/galeria.html",
+		"/D/Desarrollo/CarnavalV2/gastronomia.html",
+		"/D/Desarrollo/CarnavalV2/index.html",
+		"/D/Desarrollo/CarnavalV2/recetas/sopa_mondongo.html",
 		"/D/Desarrollo/CarnavalV2/recetas/sopa_guandu.html",
 		"/D/Desarrollo/CarnavalV2/recetas/carimanola.html",
 		"/D/Desarrollo/CarnavalV2/recetas/butifarra.html",
 		"/D/Desarrollo/CarnavalV2/recetas/bollos_yuca.html",
-		"/D/Desarrollo/CarnavalV2/contactenos.html",
 		"/D/Desarrollo/CarnavalV2/eventos.html",
-		"/D/Desarrollo/CarnavalV2/galeria.html",
-		"/D/Desarrollo/CarnavalV2/gastronomia.html",
 		"/D/Desarrollo/CarnavalV2/multimedia.html",
-		"/D/Desarrollo/CarnavalV2/index.html",
 		"/D/Desarrollo/CarnavalV2/historia.html",
 		"/D/Desarrollo/CarnavalV2/assets/css/main.css",
-		"/D/Desarrollo/CarnavalV2/recetas/sopa_mondongo.html",
 		"/D/Desarrollo/CarnavalV2/assets/js/multimedia.js",
 		"/D/Desarrollo/CarnavalV2/carnaval2.sublime-project",
 		"/D/Desarrollo/CarnavalV2/Carnaval/.gitignore",
@@ -154,38 +146,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "recetas/sopa_mondongo.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5139,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4472,
-								4472
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1452.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
