@@ -44,18 +44,18 @@
 	"buffers":
 	[
 		{
-			"file": "assets/css/main.css",
+			"file": "contactenos.html",
 			"settings":
 			{
-				"buffer_size": 7700,
+				"buffer_size": 3146,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "index.html",
+			"file": "assets/css/main.css",
 			"settings":
 			{
-				"buffer_size": 2910,
+				"buffer_size": 10040,
 				"line_ending": "Windows"
 			}
 		}
@@ -97,16 +97,20 @@
 	},
 	"file_history":
 	[
-		"/D/Desarrollo/CarnavalV2/multimedia.html",
-		"/D/Desarrollo/CarnavalV2/assets/css/main.css",
-		"/D/Desarrollo/CarnavalV2/assets/js/multimedia.js",
-		"/D/Desarrollo/CarnavalV2/galeria.html",
 		"/D/Desarrollo/CarnavalV2/contactenos.html",
-		"/D/Desarrollo/CarnavalV2/gastronomia.html",
-		"/D/Desarrollo/CarnavalV2/eventos.html",
-		"/D/Desarrollo/CarnavalV2/index.html",
-		"/D/Desarrollo/CarnavalV2/historia.html",
+		"/D/Desarrollo/CarnavalV2/assets/css/main.css",
+		"/D/Desarrollo/CarnavalV2/recetas/bollos_yuca.html",
+		"/D/Desarrollo/CarnavalV2/recetas/sopa_mondongo.html",
 		"/D/Desarrollo/CarnavalV2/recetas/sopa_guandu.html",
+		"/D/Desarrollo/CarnavalV2/recetas/carimanola.html",
+		"/D/Desarrollo/CarnavalV2/recetas/butifarra.html",
+		"/D/Desarrollo/CarnavalV2/eventos.html",
+		"/D/Desarrollo/CarnavalV2/galeria.html",
+		"/D/Desarrollo/CarnavalV2/gastronomia.html",
+		"/D/Desarrollo/CarnavalV2/historia.html",
+		"/D/Desarrollo/CarnavalV2/multimedia.html",
+		"/D/Desarrollo/CarnavalV2/index.html",
+		"/D/Desarrollo/CarnavalV2/assets/js/multimedia.js",
 		"/D/Desarrollo/CarnavalV2/carnaval2.sublime-project",
 		"/D/Desarrollo/CarnavalV2/Carnaval/.gitignore",
 		"/D/Desarrollo/Carnaval V 2.01/assets/css/main.css",
@@ -162,48 +166,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "assets/css/main.css",
+					"file": "contactenos.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7700,
+						"buffer_size": 3146,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1982,
-								1982
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1722.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2910,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2301,
-								2301
+								2245,
+								2245
 							]
 						],
 						"settings":
@@ -212,7 +187,36 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 413.0,
+						"translation.y": 917.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assets/css/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10040,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8533,
+								8533
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 8128.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

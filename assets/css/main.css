@@ -228,105 +228,6 @@ div .galeria img:hover {
 }
 
 
-
-/* Pie de página*/
-
-footer{
-	width: 100%;
-	height: 129px;
-	border-right: 1px solid rgb(219, 219, 219);
-	border-left: 1px solid rgb(219, 219, 219);
-	background-color: rgba(226, 226, 226, 0.33);
-}
-
-footer div{
-	display: inline-block;
-	vertical-align: middle;
-}
-
-footer .fo-logo{
-	width: 11%;
-	height: 100%;
-	float: left;
-}
-
-footer .fo-logo img{
-	margin: 10px 0 0 10px;
-	width: 100%;
-}
-
-footer .fo-container{
-	width: 77%;
-	/*padding-top: 13px;*/
-}
-
-footer .fo-container > * {
-	text-align: center;
-}
-
-footer .fo-container p{
-	font-family: Open Sans;
-	font-size: 16px;
-}
-
-footer .fo-container a{
-	font-family: Open Sans;
-	font-size:15px;
-}
-
-footer .fo-container .fo-links{
-	padding-left: 0;
-}
-
-footer .fo-container .fo-links li{
-	list-style: none;
-	display: inline-table;
-}
-
-footer .fo-container .fo-links li a{
-	text-decoration: none; 
-}
-
-footer .fo-social{
-	width: 11%;
-	height: 89%;
-	padding-top: 14px;
-	vertical-align: top;
-}
-
-footer div.fo-social span {
-	margin: 9px 0 0 35px;
-}
-
-
-footer .fo-social .fb_btn{
-	background-image: url('../imgs/facebook_out.png');
-	background-size: 100% 100%;
-	width: 38px;
-	height: 38px;
-	display: block;
-}
-
-footer .fo-social .tw_btn{
-	background-image: url('../imgs/twitter_out.png');
-	background-size: 100% 100%;
-	width: 38px;
-	height: 38px;
-	display: block;
-}
-
-footer .fo-social .fb_btn:hover{
-	background-image: url('../imgs/facebook_over.png');
-	cursor:pointer;
-}
-
-footer .fo-social .tw_btn:hover{
-	background-image: url('../imgs/twitter_over.png');
-	cursor:pointer;
-}
-
-
-
 /* Estilos de las recetas */
 
 
@@ -477,6 +378,64 @@ footer .fo-social .tw_btn:hover{
 
 
 
+/* Estilos Multimedia */
+
+.contentAudiovisual{
+	text-align:center;
+	width: 100%;
+	min-height: 320px;
+	border: 1px solid rgb(197, 197, 197);
+	box-shadow: 0 0 7px -2px #353535;
+	background-color: white;
+	padding-top: 30px;
+}
+
+.contentAudiovisual #audioContainer{
+	display: block;
+	vertical-align: middle;
+	position: relative;
+	margin: auto;
+	padding-top: 18%;
+}
+
+.container-list-audio, .container-list-video{
+	box-shadow: 0 0 7px -2px #353535;
+	background-color: white;
+	display: inline-block;
+	vertical-align: top;
+	width: 47%;
+	margin-top: 33px;
+}
+
+.container-list-audio {
+	float: right;
+}
+
+.container-list-audio .list-audio, .container-list-video .list-video{
+	margin-bottom: 0px;
+}
+
+.container-list-audio h2, .container-list-video h2{
+	padding-left: 13px;
+	padding-bottom: 9px;
+	margin-bottom: -16px;
+	border-bottom: 1px solid rgb(216, 216, 216);
+	box-shadow: 0px 2px 5px -2px rgb(187, 180, 180);
+}
+
+.container-list-video .list-video li, .container-list-audio .list-audio li{
+	margin-left: -40px;
+	list-style: none;
+	height: 53px;
+	line-height: 50px;
+	padding-left: 21px;
+}
+
+.container-list-video .list-video li:hover, .container-list-audio .list-audio li:hover{
+	background-color: #ccc;
+	cursor:pointer;
+}
+
 /* Estilos Contactenos */
 
 .formulario-contacto{
@@ -563,62 +522,98 @@ footer .fo-social .tw_btn:hover{
 }
 
 
+/* Pie de página*/
 
-
-/* Estilos Multimedia */
-
-.contentAudiovisual{
-	text-align:center;
+footer{
 	width: 100%;
-	min-height: 320px;
-	border: 1px solid rgb(197, 197, 197);
-	box-shadow: 0 0 7px -2px #353535;
-	background-color: white;
-	padding-top: 30px;
+	height: 129px;
+	border-right: 1px solid rgb(219, 219, 219);
+	border-left: 1px solid rgb(219, 219, 219);
+	background-color: rgba(226, 226, 226, 0.33);
 }
 
-.contentAudiovisual #audioContainer{
-	display: block;
-	vertical-align: middle;
-	position: relative;
-	margin: auto;
-	padding-top: 18%;
-}
-
-.container-list-audio, .container-list-video{
-	box-shadow: 0 0 7px -2px #353535;
-	background-color: white;
+footer div{
 	display: inline-block;
-	vertical-align: top;
-	width: 47%;
-	margin-top: 33px;
+	vertical-align: middle;
 }
 
-.container-list-audio {
-	float: right;
+footer .fo-logo{
+	width: 11%;
+	height: 100%;
+	float: left;
 }
 
-.container-list-audio .list-audio, .container-list-video .list-video{
-	margin-bottom: 0px;
+footer .fo-logo img{
+	margin: 10px 0 0 10px;
+	width: 100%;
 }
 
-.container-list-audio h2, .container-list-video h2{
-	padding-left: 13px;
-	padding-bottom: 9px;
-	margin-bottom: -16px;
-	border-bottom: 1px solid rgb(216, 216, 216);
-	box-shadow: 0px 2px 5px -2px rgb(187, 180, 180);
+footer .fo-container{
+	width: 77%;
+	/*padding-top: 13px;*/
 }
 
-.container-list-video .list-video li, .container-list-audio .list-audio li{
-	margin-left: -40px;
+footer .fo-container > * {
+	text-align: center;
+}
+
+footer .fo-container p{
+	font-family: Open Sans;
+	font-size: 16px;
+}
+
+footer .fo-container a{
+	font-family: Open Sans;
+	font-size:15px;
+}
+
+footer .fo-container .fo-links{
+	padding-left: 0;
+}
+
+footer .fo-container .fo-links li{
 	list-style: none;
-	height: 53px;
-	line-height: 50px;
-	padding-left: 21px;
+	display: inline-table;
 }
 
-.container-list-video .list-video li:hover, .container-list-audio .list-audio li:hover{
-	background-color: #ccc;
+footer .fo-container .fo-links li a{
+	text-decoration: none; 
+}
+
+footer .fo-social{
+	width: 11%;
+	height: 89%;
+	padding-top: 14px;
+	vertical-align: top;
+}
+
+footer div.fo-social span {
+	margin: 9px 0 0 35px;
+}
+
+
+footer .fo-social .fb_btn{
+	background-image: url('../imgs/facebook_out.png');
+	background-size: 100% 100%;
+	width: 38px;
+	height: 38px;
+	display: block;
+}
+
+footer .fo-social .tw_btn{
+	background-image: url('../imgs/twitter_out.png');
+	background-size: 100% 100%;
+	width: 38px;
+	height: 38px;
+	display: block;
+}
+
+footer .fo-social .fb_btn:hover{
+	background-image: url('../imgs/facebook_over.png');
+	cursor:pointer;
+}
+
+footer .fo-social .tw_btn:hover{
+	background-image: url('../imgs/twitter_over.png');
 	cursor:pointer;
 }
