@@ -47,7 +47,7 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 58.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
@@ -59,7 +59,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 512.0
+		"width": 400.0
 	},
 	"console":
 	{
@@ -81,19 +81,25 @@
 	},
 	"file_history":
 	[
-		"/D/Desarrollo/CarnavalV2/contactenos.html",
-		"/D/Desarrollo/CarnavalV2/galeria.html",
-		"/D/Desarrollo/CarnavalV2/gastronomia.html",
 		"/D/Desarrollo/CarnavalV2/index.html",
+		"/D/Desarrollo/CarnavalV2/historia.html",
+		"/D/Desarrollo/CarnavalV2/gastronomia.html",
+		"/D/Desarrollo/CarnavalV2/galeria.html",
+		"/D/Desarrollo/CarnavalV2/eventos.html",
+		"/D/Desarrollo/CarnavalV2/multimedia.html",
+		"/D/Desarrollo/CarnavalV2/contactenos.html",
+		"/D/Desarrollo/CarnavalV2/assets/css/main.css",
+		"/C/Users/Kona/Desktop/proyecto_final/proyecto_final/proyecto_final.jcp",
+		"/C/Users/Kona/Desktop/proyecto_final/proyecto_final/src_proyecto_final.txt",
+		"/C/Users/Kona/Desktop/proyecto_final/proyecto_final/classes/AdminIngreso.class",
+		"/C/Users/Kona/Desktop/proyecto_final/proyecto_final/classes/proyecto_final.class",
+		"/C/Users/Kona/Desktop/proyecto_final/proyecto_final/classes/Main.class",
+		"/C/Users/Kona/Desktop/proyecto_final/proyecto_final/classes/Empleados.class",
 		"/D/Desarrollo/CarnavalV2/recetas/sopa_mondongo.html",
 		"/D/Desarrollo/CarnavalV2/recetas/sopa_guandu.html",
 		"/D/Desarrollo/CarnavalV2/recetas/carimanola.html",
 		"/D/Desarrollo/CarnavalV2/recetas/butifarra.html",
 		"/D/Desarrollo/CarnavalV2/recetas/bollos_yuca.html",
-		"/D/Desarrollo/CarnavalV2/eventos.html",
-		"/D/Desarrollo/CarnavalV2/multimedia.html",
-		"/D/Desarrollo/CarnavalV2/historia.html",
-		"/D/Desarrollo/CarnavalV2/assets/css/main.css",
 		"/D/Desarrollo/CarnavalV2/assets/js/multimedia.js",
 		"/D/Desarrollo/CarnavalV2/carnaval2.sublime-project",
 		"/D/Desarrollo/CarnavalV2/Carnaval/.gitignore",
@@ -220,7 +226,7 @@
 	{
 	},
 	"show_minimap": true,
-	"show_open_files": true,
+	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 151.0,
