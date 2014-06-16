@@ -82,24 +82,26 @@
 	"file_history":
 	[
 		"/D/Desarrollo/CarnavalV2/index.html",
+		"/D/Desarrollo/CarnavalV2/vinculos.html",
+		"/D/Desarrollo/CarnavalV2/documentacion.html",
+		"/D/Desarrollo/CarnavalV2/assets/css/main.css",
 		"/D/Desarrollo/CarnavalV2/historia.html",
 		"/D/Desarrollo/CarnavalV2/gastronomia.html",
 		"/D/Desarrollo/CarnavalV2/galeria.html",
 		"/D/Desarrollo/CarnavalV2/eventos.html",
-		"/D/Desarrollo/CarnavalV2/multimedia.html",
 		"/D/Desarrollo/CarnavalV2/contactenos.html",
-		"/D/Desarrollo/CarnavalV2/assets/css/main.css",
+		"/D/Desarrollo/CarnavalV2/recetas/sopa_mondongo.html",
+		"/D/Desarrollo/CarnavalV2/recetas/sopa_guandu.html",
+		"/D/Desarrollo/CarnavalV2/multimedia.html",
+		"/D/Desarrollo/CarnavalV2/recetas/bollos_yuca.html",
+		"/D/Desarrollo/CarnavalV2/recetas/butifarra.html",
+		"/D/Desarrollo/CarnavalV2/recetas/carimanola.html",
 		"/C/Users/Kona/Desktop/proyecto_final/proyecto_final/proyecto_final.jcp",
 		"/C/Users/Kona/Desktop/proyecto_final/proyecto_final/src_proyecto_final.txt",
 		"/C/Users/Kona/Desktop/proyecto_final/proyecto_final/classes/AdminIngreso.class",
 		"/C/Users/Kona/Desktop/proyecto_final/proyecto_final/classes/proyecto_final.class",
 		"/C/Users/Kona/Desktop/proyecto_final/proyecto_final/classes/Main.class",
 		"/C/Users/Kona/Desktop/proyecto_final/proyecto_final/classes/Empleados.class",
-		"/D/Desarrollo/CarnavalV2/recetas/sopa_mondongo.html",
-		"/D/Desarrollo/CarnavalV2/recetas/sopa_guandu.html",
-		"/D/Desarrollo/CarnavalV2/recetas/carimanola.html",
-		"/D/Desarrollo/CarnavalV2/recetas/butifarra.html",
-		"/D/Desarrollo/CarnavalV2/recetas/bollos_yuca.html",
 		"/D/Desarrollo/CarnavalV2/assets/js/multimedia.js",
 		"/D/Desarrollo/CarnavalV2/carnaval2.sublime-project",
 		"/D/Desarrollo/CarnavalV2/Carnaval/.gitignore",
@@ -115,13 +117,14 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -129,6 +132,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<li><a href=\"\" title=\"\">Vínculos externos</a></li>",
+			"<li><a href=\"\" title=\"\">Documentación</a></li>",
 			"textarea",
 			"h1",
 			"h2",
@@ -142,6 +147,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"<li><a href=\"vinculos.html\" title=\"\">Vínculos externos</a></li>",
+			"<li><a href=\"documentacion.html\" title=\"\">Documentación</a></li>"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -225,7 +232,7 @@
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
