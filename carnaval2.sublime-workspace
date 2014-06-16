@@ -43,6 +43,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "vinculos.html",
+			"settings":
+			{
+				"buffer_size": 2489,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/css/main.css",
+			"settings":
+			{
+				"buffer_size": 10074,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -81,28 +97,29 @@
 	},
 	"file_history":
 	[
-		"/D/Desarrollo/CarnavalV2/index.html",
-		"/D/Desarrollo/CarnavalV2/vinculos.html",
-		"/D/Desarrollo/CarnavalV2/documentacion.html",
 		"/D/Desarrollo/CarnavalV2/assets/css/main.css",
+		"/D/Desarrollo/CarnavalV2/multimedia.html",
+		"/D/Desarrollo/CarnavalV2/index.html",
 		"/D/Desarrollo/CarnavalV2/historia.html",
 		"/D/Desarrollo/CarnavalV2/gastronomia.html",
 		"/D/Desarrollo/CarnavalV2/galeria.html",
 		"/D/Desarrollo/CarnavalV2/eventos.html",
+		"/D/Desarrollo/CarnavalV2/documentacion.html",
 		"/D/Desarrollo/CarnavalV2/contactenos.html",
 		"/D/Desarrollo/CarnavalV2/recetas/sopa_mondongo.html",
 		"/D/Desarrollo/CarnavalV2/recetas/sopa_guandu.html",
-		"/D/Desarrollo/CarnavalV2/multimedia.html",
-		"/D/Desarrollo/CarnavalV2/recetas/bollos_yuca.html",
-		"/D/Desarrollo/CarnavalV2/recetas/butifarra.html",
 		"/D/Desarrollo/CarnavalV2/recetas/carimanola.html",
+		"/D/Desarrollo/CarnavalV2/recetas/butifarra.html",
+		"/D/Desarrollo/CarnavalV2/recetas/bollos_yuca.html",
+		"/D/Desarrollo/CarnavalV2/vinculos.html",
+		"/D/Desarrollo/CarnavalV2/assets/js/galeria.js",
+		"/D/Desarrollo/CarnavalV2/assets/js/multimedia.js",
 		"/C/Users/Kona/Desktop/proyecto_final/proyecto_final/proyecto_final.jcp",
 		"/C/Users/Kona/Desktop/proyecto_final/proyecto_final/src_proyecto_final.txt",
 		"/C/Users/Kona/Desktop/proyecto_final/proyecto_final/classes/AdminIngreso.class",
 		"/C/Users/Kona/Desktop/proyecto_final/proyecto_final/classes/proyecto_final.class",
 		"/C/Users/Kona/Desktop/proyecto_final/proyecto_final/classes/Main.class",
 		"/C/Users/Kona/Desktop/proyecto_final/proyecto_final/classes/Empleados.class",
-		"/D/Desarrollo/CarnavalV2/assets/js/multimedia.js",
 		"/D/Desarrollo/CarnavalV2/carnaval2.sublime-project",
 		"/D/Desarrollo/CarnavalV2/Carnaval/.gitignore",
 		"/D/Desarrollo/Carnaval V 2.01/assets/css/main.css",
@@ -132,6 +149,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<title>Carnaval de barranquilla</title>",
 			"<li><a href=\"\" title=\"\">Vínculos externos</a></li>",
 			"<li><a href=\"\" title=\"\">Documentación</a></li>",
 			"textarea",
@@ -147,6 +165,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"<title>Carnaval de Barranquilla</title>",
 			"<li><a href=\"vinculos.html\" title=\"\">Vínculos externos</a></li>",
 			"<li><a href=\"documentacion.html\" title=\"\">Documentación</a></li>"
 		],
@@ -159,8 +178,67 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "vinculos.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2489,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1510,
+								1510
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 77.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assets/css/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10074,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2726,
+								2726
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2219.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
