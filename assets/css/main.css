@@ -174,9 +174,8 @@ section .contenido h3.subtittle{
 	margin-top: 20px;
 }
 
-ul.vinculo li {
-	padding: 6px;
-}
+	
+
 
 /* Galeria */
 
@@ -525,6 +524,16 @@ div .galeria img:hover {
 	list-style: none;
 }
 
+/* Vinculos externos y documentacion */
+
+
+ul.vinculo li {
+	padding: 6px; 
+}
+
+ul.vinculo li a{
+	text-decoration: none;
+}
 
 /* Pie de página*/
 
